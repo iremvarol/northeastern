@@ -757,7 +757,7 @@
      flex: 1 auto; }
  
  a, a:visited { /* DNN 8.2.0 Add */
-   color: #31774F;
+   /*color: #31774F;*/
    text-decoration: underline; }
    a:hover, a:focus, a:active {
      color: #111;
@@ -2244,6 +2244,10 @@
        font-size: 15px;
        font-size: 1.5rem; } }
  
+  a.main-nav__link { 
+    color: #31774F;
+  }  
+
  .main-nav-extended__container {
    position: absolute;
    z-index: 1;
@@ -2319,6 +2323,10 @@
    color: #666;
    display: inline-block; }
  
+   a.breadcrumb__link {
+    color: #31774F;
+  }
+  
  .breadcrumb #dnn_dnnBreadcrumb_lblBreadCrumb .breadcrumb__link:last-child {
    color: #21553a; }
    .breadcrumb #dnn_dnnBreadcrumb_lblBreadCrumb .breadcrumb__link:last-child:hover, .breadcrumb #dnn_dnnBreadcrumb_lblBreadCrumb .breadcrumb__link:last-child:focus, .breadcrumb #dnn_dnnBreadcrumb_lblBreadCrumb .breadcrumb__link:last-child:active {
@@ -2379,6 +2387,10 @@
        -ms-transform: rotate(90deg);
        transform: rotate(90deg); }
  
+   a.section-nav__link {
+    color: #31774F;
+      }
+
  .section-nav__child-link {
    background: #EBE9E4;
    border-bottom: 1px solid #e0ddd5;
