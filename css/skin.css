@@ -759,8 +759,8 @@
  a, a:visited { /* DNN 8.2.0 Add */
    /*color: #31774F;*/
    text-decoration: underline; }
-   a:hover, a:focus, a:active {
-     color: #111;
+   /*a:hover, a:focus, a:active {
+     color: #111;*/
      text-decoration: none; }
  /*a:focus {  DNN 8.2.0 Add 
      outline: #82AF26 thin solid;}  */
@@ -796,8 +796,8 @@
    text-decoration: none; }
 
    .main-nav__list a:hover,
-   .section-nav__list a:hover{
-
+   .section-nav__list a:hover,
+   .breadcrumb a:hover{
     color:#111;
    }
  
@@ -2326,7 +2326,7 @@
    a.breadcrumb__link {
     color: #31774F;
   }
-  
+
  .breadcrumb #dnn_dnnBreadcrumb_lblBreadCrumb .breadcrumb__link:last-child {
    color: #21553a; }
    .breadcrumb #dnn_dnnBreadcrumb_lblBreadCrumb .breadcrumb__link:last-child:hover, .breadcrumb #dnn_dnnBreadcrumb_lblBreadCrumb .breadcrumb__link:last-child:focus, .breadcrumb #dnn_dnnBreadcrumb_lblBreadCrumb .breadcrumb__link:last-child:active {
