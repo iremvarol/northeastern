@@ -2019,8 +2019,12 @@
    text-transform: uppercase; }
    .global__link:visited { /*DNN 8.2.0 Add */
      color: #fff;}
-   .global__link:hover, .global__link:focus, .global__button:hover, .global__button:focus {
+   .global__link:focus, .global__button:hover, .global__button:focus {
      color: #82AF26; }
+
+    .global__link:hover {
+      color: #B9DF6D;
+    }
      /*.global__button:focus {
        outline: #82AF26 thin solid;  DNN 8.2.0 Add }*/
    @media (min-width: 700px) {
