@@ -7,11 +7,7 @@
 	<meta name="REVISIT-AFTER" content="1 DAYS" />
 	<meta name="RATING" content="GENERAL" />
 	<meta name="RESOURCE-TYPE" content="DOCUMENT" />
-	<meta content="text/javascript" http-equiv="Content-Script-Type" />
-	<meta content="text/css" http-equiv="Content-Style-Type" />
-	<title>
-		Northeastern State University > Style > Grid | Northeastern State University
-	</title>
+	<title> Northeastern State University &gt; Style &gt; Grid | Northeastern State University </title>
 	<meta id="MetaDescription" name="DESCRIPTION" content="Northeastern State University" />
 	<meta id="MetaKeywords" name="KEYWORDS"
 		content="Northeastern State University, NSUOK, NSU, Northeastern State, Tahlequah, Broken Arrow, Muskogee, NSU Tahlequah, NSU Broken Arrow, NSU Muskogee, NSUBA, NSUOK" />
@@ -40,47 +36,7 @@
 <body id="Body">
 	
 	<form method="post" action="/Style/Grid.aspx" id="Form" enctype="multipart/form-data">
-		<div class="aspNetHidden">
-			<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
-			<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
-			<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE"
-				value="hfc62Im4Yp7mkUPZg5Ed1bozZ51fpMFfW70keeigjPmgkuGOxbLS1ckz3tzO1TPvC1WqvwnIAy524803JoKZwUdBNaVxs0RPJz/KKV5+jkGQOga8gBX58P8W525z05uz1bAS/+UFj8siWnErG9wOuW+EQyKVSotiwYmT6NC/HXjsUuGeOVg9brkReCDAxn1l5kGQQTYyBqbNUsIdK6nKnnKqOr+gwSP0TFkNF0rPlo3O78US6adwkm/I/49Nx7cxewtL3sPvyAxhuDhGb3BoHfctdzvvx+aWm3OCGLW2hQD3TvM7UC4ny5vfan2S11NLBH3B2c7IiJYxfvFDZf99oq0F5tmyx15LIbnE12iqNtwWiHsJGmjbOEp9TLwRHkowcbFxOrqlvq5HjFBEUUSIsLa6xs0=" />
-		</div>
-
-		<script type="text/javascript">
-			//<![CDATA[
-			var theForm = document.forms['Form'];
-			if (!theForm) {
-				theForm = document.Form;
-			}
-
-			function __doPostBack(eventTarget, eventArgument) {
-				if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
-					theForm.__EVENTTARGET.value = eventTarget;
-					theForm.__EVENTARGUMENT.value = eventArgument;
-					theForm.submit();
-				}
-			}
-			//]]>
-		</script>
-
-		<div class="aspNetHidden">
-
-			<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
-			<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION"
-				value="L1kbeLkp+0oOvo0lI0HYpHXCY18d0ns2WXIQLRsIsTw9gcsBqv5173/eSdb6WSKpHqiwzywBV7VsOSmV2QShZKCRSC85rzYqFmbKiU5Y/CPclsMDg3AdRCjaZwo+kHJk+b00r1q/15Zcz9SRBciIWVcny7w=" />
-		</div>
-		<script src="/js/dnn.js?cdv=255" type="text/javascript"></script>
-		<script src="/Portals/_default/Skins/nsuMain/js/main.js?cdv=255" type="text/javascript"></script>
-		<script src="/js/dnncore.js?cdv=255" type="text/javascript"></script>
-		<script src="/js/dnn.servicesframework.js?cdv=255" type="text/javascript"></script>
-		<script type="text/javascript">
-			//<![CDATA[
-			Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [], 90, '');
-			//]]>
-		</script>
-
-
+		
 		<header class="site-header" role="banner">
 			<a href="#mainContent" class="skip-nav">Skip Navigation</a>
 			<div class="site-header__container">
@@ -108,8 +64,8 @@
 									<div id="GlobalLeft" class="global global--left">
 										<div>
 											<button type="button" class="global__button global__button--campuses"
-												data-ng-click="toggleCampuses()" aria-hidden="true"><i
-													class="icon-global-arrow"></i> Campuses</button>
+												data-ng-click="toggleCampuses()" aria-hidden="true"><span
+													class="icon-global-arrow"></span> Campuses</button>
 											<div class="global__dropdown" data-ng-class="{'open': campusesOpen}"
 												data-dropdown="campusDropdown">
 												<ul class="global__list">
@@ -144,51 +100,57 @@
 										<div id="GlobalRight" data-ng-repeat="link in links">
 											<ul class="global__list">
 												<li class="global__item">
-													<a data-ng-href="{{ link.link_five_url }}" class="global__link"
+													<a href="https://www.nsuok.edu/tahlequah.aspx" class="global__link"
 														target="{{ link.link_five_target }}"
 														title="{{ link.link_five_title_attr }}"
 														data-ng-cloak>{{ link.link_five_title }}</a>
 												</li>
 												<li class="global__item">
-													<a data-ng-href="{{ link.link_six_url }}" class="global__link"
+													<a href="https://www.nsuok.edu/muskogee.aspx" class="global__link"
 														target="{{ link.link_six_target }}"
 														title="{{ link.link_six_title_attr }}"
 														data-ng-cloak>{{ link.link_six_title }}</a>
 												</li>
 												<li class="global__item">
-													<a data-ng-href="{{ link.link_seven_url }}" class="global__link"
-														target="{{ link.link_seven_target }}"
+													<a href="https://www.nsuok.edu/brokenarrow.aspx"
+														class="global__link" target="{{ link.link_seven_target }}"
 														title="{{ link.link_seven_title_attr }}"
 														data-ng-cloak>{{ link.link_seven_title }}</a>
 												</li>
 												<li class="global__item">
-													<a data-ng-href="{{ link.link_eight_url }}"
+													<a href="https://academics.nsuok.edu/online"
 														class="global__link go-nsu-link"
 														target="{{ link.link_eight_target }}"
 														title="{{ link.link_eight_title_attr }}"
 														data-ng-cloak>{{ link.link_eight_title }}</a>
 												</li>
 												<li class="global__item">
-													<a data-ng-href="{{ link.link_nine_url }}" class="global__link"
-														target="{{ link.link_nine_target }}"
+													<a href="https://academics.nsuok.edu/graduatecollege"
+														class="global__link" target="{{ link.link_nine_target }}"
 														title="{{ link.link_nine_title_attr }}"
 														data-ng-cloak>{{ link.link_nine_title }}</a>
 												</li>
 												<li class="global__item" aria-hidden="true">
 													<button id="searchToggle"
 														class="global__button global__button--search" type="button"
-														data-ng-click="toggleSearch()"><i
-															class="icon-search-toggle"></i> Search</button>
+														data-ng-click="toggleSearch()"><span
+															class="icon-search-toggle"></span> Search</button>
 												</li>
 											</ul>
 
 										</div>
 
-										<div id="cse-search-box" class="header-search open" data-ng-class="{'open': searchOpen}" data-dropdown="searchDropdown">
-											<label for="dnn_dnnSEARCH_q" id="dnn_dnnSEARCH_sa_label" class="visually-hidden">Search NSU</label>
-											<input name="dnn$dnnSEARCH$q" type="text" id="dnn_dnnSEARCH_q" size="31" class="header-search__input" placeholder="Enter Search Terms" autocomplete="off" onkeydown="return __dnn_KeyDown('13', 'javascript:__doPostBack(%27dnn$dnnSEARCH$sa%27,%27%27)', event);">
-											 <a id="dnn_dnnSEARCH_sa" class="nsusearch" name="sa" href="javascript:__doPostBack('dnn$dnnSEARCH$sa','')">Search</a>
-										  </div>
+										<div id="cse-search-box" class="header-search open"
+											data-ng-class="{'open': searchOpen}" data-dropdown="searchDropdown">
+											<label for="dnn_dnnSEARCH_q" id="dnn_dnnSEARCH_sa_label"
+												class="visually-hidden">Search NSU</label>
+											<input name="dnn$dnnSEARCH$q" type="text" id="dnn_dnnSEARCH_q" size="31"
+												class="header-search__input" placeholder="Enter Search Terms"
+												autocomplete="off"
+												onkeydown="return __dnn_KeyDown('13', 'javascript:__doPostBack(%27dnn$dnnSEARCH$sa%27,%27%27)', event);">
+											<a id="dnn_dnnSEARCH_sa" class="nsusearch" name="sa"
+												href="javascript:__doPostBack('dnn$dnnSEARCH$sa','')">Search</a>
+										</div>
 
 									</div>
 
@@ -265,10 +227,6 @@
 							<div id="dnn_ctr3566_ContentPane">
 								<!-- Start_Module_3566 -->
 								<div id="dnn_ctr3566_ModuleContent" class="DNNModuleContent ModDDRMenuC">
-
-
-
-
 									<div role="navigation" aria-label="Section Navigation" class="section-nav">
 										<button type="button" class="btn-select" data-toggledropdown="sectionNav"
 											aria-hidden="true">Explore this Section</button>
@@ -330,9 +288,7 @@
 													<a href="http://www.nsuok.edu/FutureStudents.aspx"
 														class="section-nav__link">Future Students</a>
 												</li>
-
 											</ul>
-
 										</div>
 									</div>
 								</div><!-- End_Module_3566 -->
@@ -343,11 +299,8 @@
 						<div id="dnn_ContentTopPane">
 							<div class="DnnModule DnnModule-DNN_HTML DnnModule-3729 DnnVersionableControl"><a
 									name="3729"></a>
-
 								<h2 class="title-lead"><span id="dnn_ctr3729_dnnTITLE_titleLabel"
 										class="Head">Text/HTML</span>
-
-
 								</h2>
 								<div id="dnn_ctr3729_ContentPane">
 									<!-- Start_Module_3729 -->
@@ -400,10 +353,6 @@
 												</div>
 											</div>
 										</div>
-
-
-
-
 									</div><!-- End_Module_3729 -->
 								</div>
 							</div>
@@ -743,22 +692,7 @@
 			</footer>
 		</div>
 
-
-
-		<input name="ScrollTop" type="hidden" id="ScrollTop" />
-		<input name="__dnnVariable" type="hidden" id="__dnnVariable" autocomplete="off"
-			value="`{`trackLinks`:`false`,`__scdoff`:`1`,`sf_siteRoot`:`/`,`sf_tabId`:`2261`,`evoq_TabId`:`2261`,`evoq_PageLanguage`:`en-US`,`evoq_ContentItemId`:`-1`,`evoq_UrlReferrer`:``,`evoq_UrlPath`:`http%3a%2f%2fwww.nsuok.edu%2fStyle%2fGrid.aspx`,`evoq_UrlQuery`:`%3fTabID%3d2261`,`evoq_ContentItemReferrer`:`-1`,`evoq_PersonalizedUrlReferrer`:`-1`,`evoq_DisableAnalytics`:`False`}" />
-		<input name="__RequestVerificationToken" type="hidden"
-			value="ZJUnfpVQ93w6sT2g0qgoPjnfd1Ge9IbPjgrM0xMmBtKkyzadOtsB6LErbALLzsuLHuaQ3A2" />
 	</form>
-	<!--CDF(Javascript|/js/dnncore.js?cdv=255)-->
-	<!--CDF(Css|/Resources/Shared/stylesheets/dnndefault/7.0.0/default.css?cdv=255)-->
-	<!--CDF(Css|/Portals/_default/Skins/nsuMain/skin.css?cdv=255)-->
-	<!--CDF(Css|/Portals/0/portal.css?cdv=255)-->
-	<!--CDF(Javascript|/js/dnn.js?cdv=255)-->
-	<!--CDF(Javascript|/js/dnn.servicesframework.js?cdv=255)-->
-	<!--CDF(Javascript|/Resources/libraries/jQuery/01_09_01/jquery.js?cdv=255)-->
-
 </body>
 
 </html>
