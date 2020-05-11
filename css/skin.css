@@ -757,7 +757,7 @@
      flex: 1 auto; }
  
  a, a:visited { /* DNN 8.2.0 Add */
-   color: #79C89B;
+   color: #31774F;
    text-decoration: underline; }
    a:hover, a:focus, a:active {
      color: #111;
@@ -872,7 +872,7 @@
      padding: 10px;
      text-decoration: none; }
      .list-img-link a:hover, .list-img-link a:focus, .list-img-link a:active {
-       color: #79C89B;
+       color: #31774F;
        background: #dedbd2; }
    .list-img-link img {
      vertical-align: bottom;
