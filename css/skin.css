@@ -2534,7 +2534,8 @@
    padding: 10px;
    width: 100%;
    font-size: 13px;
-   font-size: 1.3rem; }
+   font-size: 1.3rem; 
+   color: black; }
    /*.header-search__input:focus {
      outline: #82AF26 thin solid;  DNN 8.2.0 Add 
  }*/
