@@ -794,6 +794,12 @@
  .link-block a, .button-list a, .global__list a, .main-nav__list a, .section-nav__list a, .section-nav__child a {
    display: block;
    text-decoration: none; }
+
+   .main-nav__list a:hover,
+   .section-nav__list a:hover{
+
+    color:#111;
+   }
  
  .button-list li {
    margin: 20px 0; }
