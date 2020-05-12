@@ -1285,6 +1285,9 @@ main a {
    font-size: 13px;
    font-size: 1.3rem;
    position: relative; }
+   .btn-more:hover {
+     color: black;
+     }
    .btn-more:after {
      content: '';
      margin-left: 10px;
