@@ -968,6 +968,10 @@ main a {
    background: url(../images/sprites.svg) no-repeat;
    display: inline-block;
    vertical-align: middle; }
+
+   a#dnn_dnnSEARCH_sa {
+     color: #31774F;
+  }
  
  .icon-alert, .alert:after {
    background-position: 0 100%;
