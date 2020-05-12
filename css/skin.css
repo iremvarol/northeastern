@@ -2533,7 +2533,7 @@ main a {
        -ms-transform: translate(0, -56px);
        transform: translate(0, -56px);
        top: 0;
-       right: 0;
+       right: 350px;
        width: 400px;
        background: #1d4a33; }
        .header-search.open {
