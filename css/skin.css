@@ -418,6 +418,10 @@
     color: #444;
 }
 
+main a {
+  color: #31774F;
+}
+
  @media (max-width: 700px) {
    html.open, body.open {
      height: 100%;
@@ -1991,7 +1995,7 @@
  .global-bar {
    padding: 10px;
    background: #276444;
-  color: white }
+    color: white }
    .global-bar:after {
      clear: both;
      content: '';
