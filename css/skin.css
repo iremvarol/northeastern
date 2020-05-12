@@ -1270,7 +1270,7 @@ main a {
    .btn-primary:visited { /* DNN 8.2.0 Add */
      color:#fff; }
    .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-     background: #82AF26;
+     background: #5D7E1B;
      color: #fff; }
  
  .btn-alt {
