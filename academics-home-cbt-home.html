@@ -8,20 +8,23 @@
     <meta name="RESOURCE-TYPE" content="DOCUMENT" />
     <meta content="text/javascript" http-equiv="Content-Script-Type" />
     <meta content="text/css" http-equiv="Content-Style-Type" />
-    <title>
-        Frequently Asked Questions | Northeastern State University
+    <title> College of Business & Technology | Northeastern State University
     </title>
-    <meta id="MetaDescription" name="DESCRIPTION" content="You&#39;ve got questions, we&#39;ve got answers." />
+    <meta id="MetaDescription" name="DESCRIPTION"
+        content="The College of Business and Techology offers you a lot of choices, while treating you as an individual." />
     <meta id="MetaKeywords" name="KEYWORDS"
-        content="Northeastern State University, NSUOK, NSU, Northeastern State, Tahlequah, Broken Arrow, Muskogee, NSU Tahlequah, NSU Broken Arrow, NSU Muskogee, NSUBA, NSUOK" />
+        content="College of Business and Technology, Business, Technology, B&amp;T, BT" />
     <meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" />
-    <link href="/Resources/Shared/stylesheets/dnndefault/7.0.0/default.css?cdv=255" type="text/css" rel="stylesheet" />
-    <link href="/Portals/_default/Skins/nsuMain/skin.css?cdv=255" type="text/css" rel="stylesheet" />
-    <link href="/Portals/0/portal.css?cdv=255" type="text/css" rel="stylesheet" />
-    <script src="/Portals/_default/Skins/nsuMain/js/modernizr.custom.nsu.js?cdv=255" type="text/javascript"></script>
-    <script src="/Resources/libraries/jQuery/01_09_01/jquery.js?cdv=255" type="text/javascript"></script>
-    <script src="/Portals/_default/Skins/nsuMain/js/angular.min.js?cdv=255" type="text/javascript"></script>
-    <script src="/Portals/_default/Skins/nsuMain/js/app2.js?cdv=255" type="text/javascript"></script>
+    <link href="/Resources/Shared/stylesheets/dnndefault/7.0.0/default.css?cdv=214" type="text/css" rel="stylesheet" />
+    <link href="/Portals/_default/Skins/nsuMain/skin.css?cdv=214" type="text/css" rel="stylesheet" />
+    <link href="/Portals/22/portal.css?cdv=214" type="text/css" rel="stylesheet" />
+    <script src="/Portals/_default/Skins/nsuMain/js/modernizr.custom.nsu.js?cdv=214" type="text/javascript"></script>
+    <script src="/Resources/libraries/jQuery/01_09_01/jquery.js?cdv=214" type="text/javascript"></script>
+    <script src="/Portals/_default/Skins/nsuMain/js/angular.min.js?cdv=214" type="text/javascript"></script>
+    <script src="/Portals/_default/Skins/nsuMain/js/app2.js?cdv=214" type="text/javascript"></script>
+
+    <link href="./css/skin.css" type="text/css" rel="stylesheet" />
+    <link href="./css/portal.css" type="text/css" rel="stylesheet" />
 
     <!-- Google Tag Manager -->
 
@@ -50,37 +53,30 @@
     <!-- End Google Tag Manager -->
     <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-    <!-- JSON-LD Schema Implementation for University Home Page -->
-
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [{
-        "@type": "Question",
-        "name": "How many hours do I need to take each semester to be considered a full-time student?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Undergraduate students must be enrolled in 12 hours per regular semester (fall and/or spring) to be considered full time. Students should take 15-16 hours each semester to maintain a four-year graduation schedule. Students may catch up hours or work ahead during summer semesters. For a graduate student, taking only 9 hours is considered full time."
+    <!-- JSON-LD Schema Implementation for College Dept Page -->
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org/",
+            "@type": "CollegeOrUniversity",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "United States",
+                "addressLocality": "Tahlequah",
+                "addressRegion": "OK",
+                "postalCode": "74464",
+                "streetAddress": "700 N. Grand Ave",
+                "telephone": "918-444-2900"
+            },
+            "name": "College of Business & Technology",
+            "url": "https://academics.nsuok.edu/businesstechnology/",
+            "description": "The College of Business & Technology is a student-centered college which provides innovative business education to its students. Our students graduate with high-quality degrees and professional expertise that put them in demand with area employers. We seek to maintain excellent faculty and staff. Faculty members strive for high levels of classroom performance and work hard to advance knowledge in their disciplines. The College of Business & Technology offers 13 undergraduate programs and four graduate programs. Classes are offered on both the Tahlequah and Broken Arrow campuses using traditional, blended, and online delivery methods.",
+            "parentOrganization": {
+                "@type": "CollegeOrUniversity",
+                "name": "Northestern State University"
+            }
         }
-      },{
-        "@type": "Question",
-        "name": "How many hours do I need to take before I can declare a major?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Transfer and returning students can declare their major on the application for admission or any time thereafter. New freshmen can declare their major toward the end of their first semester during their required appointment with their academic advisor."
-        }
-      },{
-        "@type": "Question",
-        "name": "Do you have night classes?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "NSU offers classes at a variety of times, including evenings and weekends."
-        }
-      }]
-    }
     </script>
-    
+
 
 </head>
 
@@ -93,12 +89,12 @@
     <!-- End Google Tag Manager (noscript) -->
 
 
-    <form method="post" action="/AboutUs/FAQs.aspx" id="Form" enctype="multipart/form-data">
+    <form method="post" action="/businesstechnology" id="Form" enctype="multipart/form-data">
         <div class="aspNetHidden">
             <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
             <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
             <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE"
-                value="jk2fcXuRQ/uCUz1/dKyIvoJciv9VB2Ho6j9OBhgxL3JYER+mcySGj44PEXOPKWvdCHNmFIZ9klXCQ3u1uQeAibeh+N+khTMW3eoX5OfCxrRy8YOZc74mi8VSPDXDkLMfCxw2oJLqVgacZF7RySUVamBEAXIg9v3VK7YxkYP8aB42IYRrDN12/eR9rfmUdq1/K2qPu02yRgmQnJjyJ1kbkvgMqPzCBItpbm4SPARZpvFUFZIXSdmT/t3FceXeYrE44UvI5/btZxI9kn6aEwTJIeloWYV4HUykmdUXuOpEIys6CzOrJ5OizfNGlGD9sjfWGBZC3PQVZJJl43i7y14jBCtJGFouiFWbempKYEE8xM1zh9oDxezvbf1ufcZk8yYMVb9A+jODESNqmutDuVtIpXAIVafJbi8Duj/83+q/CxZMtAzawFDnjjQGXiewaK9SZAN8BWhNaak3W0mGOBu6GMrSXppZlml57RcPYGrjj5RXB0w24Gi0h/17x58DOhcoWz0aWBwUjXVmjp4v" />
+                value="IYDwZCpX6v15XBEThNgnabagm/QJtGrP4oS0ZitpuBUXiUHtpDsaQ66cWnLbGyJtsUAjh0/UDMzdZKmq14GcX1DXqiqEb7EP3Oh8KYz5SIvv50ti6+czAYBDjLIgFtnLk5hlVTrN/K53WgLugAT+uFaNXABf4wMZOJAa6Hj3Wge22u8fnDUWALTXdwQGDDZtAR4GLx3vTYTScOILUf898RsYPptmq1zBD4Lol6XnVgWjTvEVdjjYbKDwupntcO2wEuyrZQTdXyalTvsvyXxTypoUy1HcEaNW8VeIzJ97sXs5dsTDwddiL/vNs0Zn5ldjtpNE4sNqo82F12SqT5Rih32rgePLF8G5RgTB1HOXzC16TPxFnIY1Jl/nCV2wT2MkLAoaboVFNeo8+UXaCZBnO0ct8irTnGhEdQEHGHfWfvQUYB9StkYiTqIqORjEns4HKmqiOTeY822MKG1f6rDrrqA7SEQ=" />
         </div>
 
         <script type="text/javascript">
@@ -120,26 +116,26 @@
 
 
         <script
-            src="/WebResource.axd?d=pynGkmcFUV2-kc5UuekcvBs1EP5mDkK_GC3c7wIIzyd_nb1ciSCafhqFkz41&amp;t=636934705199995647"
+            src="/WebResource.axd?d=pynGkmcFUV0nFn06NJ6dovPZ-uWu37PMW6khF8-ptH8B0pGuL2qwm0ZED6Q1&amp;t=636934705199995647"
             type="text/javascript"></script>
 
 
         <script
-            src="/ScriptResource.axd?d=NJmAwtEo3IqiisZrRwSNrByZgMAI4-Rl24_kp4iS6VoUSs_0rV7jaefkITttYVvYDNtHtykWxQBt_YZS3xxZQP3mUoOjkKkLid7LsFJTjErskUwMJOTfk_hgsp4eGvPvAxqEnQ2&amp;t=ffffffffa580202a"
+            src="/ScriptResource.axd?d=NJmAwtEo3IpC2PeKFjQQMdCKCG3WNqAXJw70OkboGJzm61PwxqC4yUVpr23LG9K2oua_p0r39zvDrQAYvl7aGwTSzGZXZ-70oKeZtydh56BBWFLXsH5pvhriAbQSh_pOTI_U3w2&amp;t=ffffffffa580202a"
             type="text/javascript"></script>
         <script
-            src="/ScriptResource.axd?d=dwY9oWetJoIB3JB1zButE94uf0GOmArfXcnC9JRCLPVGThjDjw0q4_eLSKUpbhkNVyJOsqCBWCs850QW649WMzytdgVjnDtwbe0yxWnwyW2C4kkSPCXx_VewrdRNvu82A2Ud_T5NC_mRRuum0&amp;t=ffffffffa580202a"
+            src="/ScriptResource.axd?d=dwY9oWetJoJaQh7HyZgcAdn8uAui4aQluuSGLcxDjKvrx6hwZfxfNq2RGsD3avn5gIzwiQho-uEG0-nQzX9aoOU0bkh-7349KbU1sGfpwUPLMeyYwFzPNPOQSt1V6BsvRjMeH_5mNhwPlUjn0&amp;t=ffffffffa580202a"
             type="text/javascript"></script>
         <div class="aspNetHidden">
 
             <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
             <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION"
-                value="fiIAwXk4cNILZ2443Khx533OXAgDm0scQUYWoutRbVpO3jtlblIsFrGKgG5VgYvSSwuTItTdVGVDAy2d9HoNv5S6ihjAXCzS3hnFnlTjZumjvTGRpS/SZ7ty2ve8kqVFA1eOtOsZ2Dx8UYwG51z6gwdyMq0=" />
+                value="5GxCpW9yNKLB1GXV8LsTFIogymMY1aeVHJtjKkC4zcvtbtRG7E5ccrLzdReJq3qbw3GHl2qJs2XGJAbbEcoIpuHh5oMtg3zHMQQ/t7zYRc//khPqQDxKUlD1A7w2dQ96sZhGaxV+vd4tFRIuZTU69ld/ptQ=" />
         </div>
-        <script src="/js/dnn.js?cdv=255" type="text/javascript"></script>
-        <script src="/Portals/_default/Skins/nsuMain/js/main.js?cdv=255" type="text/javascript"></script>
-        <script src="/js/dnncore.js?cdv=255" type="text/javascript"></script>
-        <script src="/js/dnn.servicesframework.js?cdv=255" type="text/javascript"></script>
+        <script src="/js/dnn.js?cdv=214" type="text/javascript"></script>
+        <script src="/Portals/_default/Skins/nsuMain/js/main.js?cdv=214" type="text/javascript"></script>
+        <script src="/js/dnncore.js?cdv=214" type="text/javascript"></script>
+        <script src="/js/dnn.servicesframework.js?cdv=214" type="text/javascript"></script>
         <script type="text/javascript">
             //<![CDATA[
             Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [], 90, '');
@@ -212,10 +208,6 @@
                                                 <li class="global__item">
                                                     <a href="https://academics.nsuok.edu/online"
                                                         class="global__link">Online</a>
-                                                </li>
-                                                <li class="global__item">
-                                                    <a href="https://academics.nsuok.edu/graduatecollege"
-                                                        class="global__link">Graduate College</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -327,33 +319,28 @@
 
                     <div class="breadcrumb">
 
-                        <a href="https://www.nsuok.edu" class="breadcrumb__link">NSU Home</a>
+                        <a href="https://academics.nsuok.edu" class="breadcrumb__link">Academics Home</a>
                         <span class="breadcrumb__separator">/</span>
                         <span id="dnn_dnnBreadcrumb_lblBreadCrumb" itemprop="breadcrumb" itemscope=""
                             itemtype="https://schema.org/breadcrumb"><span itemscope
                                 itemtype="http://schema.org/BreadcrumbList"><span itemprop="itemListElement" itemscope
-                                    itemtype="http://schema.org/ListItem"><a href="http://www.nsuok.edu/AboutUs.aspx"
-                                        class="breadcrumb__link" itemprop="item"><span itemprop="name">About
-                                            Us</span></a>
-                                    <meta itemprop="position" content="1" /></span><span
-                                    class='breadcrumb__separator'>/</span><span itemprop="itemListElement" itemscope
                                     itemtype="http://schema.org/ListItem"><a
-                                        href="http://www.nsuok.edu/AboutUs/FAQs.aspx" class="breadcrumb__link"
-                                        itemprop="item"><span itemprop="name">FAQs</span></a>
-                                    <meta itemprop="position" content="2" /></span></span></span>
+                                        href="http://academics.nsuok.edu/businesstechnology/" class="breadcrumb__link"
+                                        itemprop="item"><span itemprop="name">CBT Home</span></a>
+                                    <meta itemprop="position" content="1" /></span></span></span>
                     </div>
 
                 </div>
                 <div class="container relative">
                     <div id="dnn_ActionBoxPane" class="DNNEmptyPane"></div>
                 </div>
-                <h1 class="page-title">Frequently Asked Questions</h1>
+                <h1 class="page-title">College of Business & Technology</h1>
                 <div class="container">
                     <div id="dnn_PageNavigation" class="page-navigation">
-                        <div class="DnnModule DnnModule-DDRMenu DnnModule-3566"><a name="3566"></a>
-                            <div id="dnn_ctr3566_ContentPane">
-                                <!-- Start_Module_3566 -->
-                                <div id="dnn_ctr3566_ModuleContent" class="DNNModuleContent ModDDRMenuC">
+                        <div class="DnnModule DnnModule-DDRMenu DnnModule-48660"><a name="48660"></a>
+                            <div id="dnn_ctr48660_ContentPane">
+                                <!-- Start_Module_48660 -->
+                                <div id="dnn_ctr48660_ModuleContent" class="DNNModuleContent ModDDRMenuC">
 
 
 
@@ -364,103 +351,88 @@
                                         <div data-dropdown="sectionNav" class="section-nav__wrapper">
                                             <ul class="section-nav__list">
                                                 <li
-                                                    class="section-nav__item section-nav__item--first section-nav__item--has-child">
+                                                    class="section-nav__item section-nav__item--first section-nav__item--selected">
 
-                                                    <a href="http://www.nsuok.edu/AboutUs.aspx"
-                                                        class="section-nav__link">About Us</a>
-                                                    <ul class="section-nav__child">
-
-
-                                                        <li class="menu__item menu__item--first">
-                                                            <a href="http://www.nsuok.edu/AboutUs/NSUataGlance.aspx"
-                                                                class="section-nav__child-link">NSU at a Glance</a>
-
-                                                        </li>
-                                                        <li class="menu__item">
-                                                            <a href="http://www.nsuok.edu/AboutUs/OurCampuses.aspx"
-                                                                class="section-nav__child-link">Our Campuses</a>
-
-                                                        </li>
-                                                        <li class="menu__item">
-                                                            <a href="http://www.nsuok.edu/AboutUs/CampusTours.aspx"
-                                                                class="section-nav__child-link">Campus Tours</a>
-
-                                                        </li>
-                                                        <li class="menu__item selected menu__item--breadcrumb">
-                                                            <a href="http://www.nsuok.edu/AboutUs/FAQs.aspx"
-                                                                class="section-nav__child-link">FAQs</a>
-
-                                                        </li>
-                                                        <li class="menu__item">
-                                                            <a href="http://www.nsuok.edu/AboutUs/Mission,VisionandValues.aspx"
-                                                                class="section-nav__child-link">Mission, Vision and
-                                                                Values</a>
-
-                                                        </li>
-                                                        <li class="menu__item menu__item--last">
-                                                            <a href="http://www.nsuok.edu/AboutUs/StudentConsumerInformation.aspx"
-                                                                class="section-nav__child-link">Student Consumer
-                                                                Information</a>
-
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li class="section-nav__item section-nav__item--has-child">
-
-                                                    <a href="http://www.nsuok.edu/CampusLife.aspx"
-                                                        class="section-nav__link">Campus Life</a>
-                                                </li>
-                                                <li class="section-nav__item section-nav__item--has-child">
-
-                                                    <a href="http://www.nsuok.edu/Academics.aspx"
-                                                        class="section-nav__link">Academics</a>
-                                                </li>
-                                                <li class="section-nav__item section-nav__item--has-child">
-
-                                                    <a href="http://www.nsuok.edu/Outreach.aspx"
-                                                        class="section-nav__link">Outreach</a>
-                                                </li>
-                                                <li class="section-nav__item section-nav__item--has-child">
-
-                                                    <a href="http://www.nsuok.edu/Calendar.aspx"
-                                                        class="section-nav__link">Calendar</a>
-                                                </li>
-                                                <li class="section-nav__item section-nav__item--has-child">
-
-                                                    <a href="http://www.nsuok.edu/CampusMaps.aspx"
-                                                        class="section-nav__link">Campus Maps</a>
-                                                </li>
-                                                <li class="section-nav__item section-nav__item--has-child">
-
-                                                    <a href="http://www.nsuok.edu/Administration.aspx"
-                                                        class="section-nav__link">Administration</a>
+                                                    <a href="http://academics.nsuok.edu/businesstechnology/"
+                                                        class="section-nav__link">CBT Home</a>
                                                 </li>
                                                 <li class="section-nav__item">
 
-                                                    <a href="http://www.nsuok.edu/ContactUs.aspx"
+                                                    <a href="http://academics.nsuok.edu/businesstechnology/Majors"
+                                                        class="section-nav__link">Majors</a>
+                                                </li>
+                                                <li class="section-nav__item">
+
+                                                    <a href="http://academics.nsuok.edu/businesstechnology/Departments"
+                                                        class="section-nav__link">Departments</a>
+                                                </li>
+                                                <li class="section-nav__item section-nav__item--has-child">
+
+                                                    <a href="http://academics.nsuok.edu/businesstechnology/Undergraduate"
+                                                        class="section-nav__link">Undergraduate</a>
+                                                </li>
+                                                <li class="section-nav__item">
+
+                                                    <a href="https://securelb.imodules.com/s/1517/index.aspx?sid=1517&amp;gid=1&amp;pgid=643&amp;cid=1392"
+                                                        class="section-nav__link">Support CBT</a>
+                                                </li>
+                                                <li class="section-nav__item section-nav__item--has-child">
+
+                                                    <a href="http://academics.nsuok.edu/businesstechnology/About"
+                                                        class="section-nav__link">About</a>
+                                                </li>
+                                                <li class="section-nav__item">
+
+                                                    <a href="http://academics.nsuok.edu/businesstechnology/Faculty"
+                                                        class="section-nav__link">Faculty</a>
+                                                </li>
+                                                <li class="section-nav__item section-nav__item--has-child">
+
+                                                    <a href="http://academics.nsuok.edu/businesstechnology/Graduate"
+                                                        class="section-nav__link">Graduate</a>
+                                                </li>
+                                                <li class="section-nav__item">
+
+                                                    <a href="http://academics.nsuok.edu/businesstechnology/Center-for-Academic-Excellence"
+                                                        class="section-nav__link">Center for Academic Excellence</a>
+                                                </li>
+                                                <li class="section-nav__item">
+
+                                                    <a href="http://academics.nsuok.edu/businesstechnology/Chalk-and-Wire-Assistance-Center"
+                                                        class="section-nav__link">Chalk and Wire Assistance Center</a>
+                                                </li>
+                                                <li class="section-nav__item">
+
+                                                    <a href="http://academics.nsuok.edu/businesstechnology/Immersive-Learning"
+                                                        class="section-nav__link">Immersive Learning</a>
+                                                </li>
+                                                <li class="section-nav__item">
+
+                                                    <a href="http://academics.nsuok.edu/businesstechnology/Newsletters"
+                                                        class="section-nav__link">Newsletters</a>
+                                                </li>
+                                                <li class="section-nav__item">
+
+                                                    <a href="http://academics.nsuok.edu/businesstechnology/Contact-Us"
                                                         class="section-nav__link">Contact Us</a>
                                                 </li>
                                                 <li class="section-nav__item">
 
-                                                    <a href="http://www.nsuok.edu/CurrentStudents.aspx"
-                                                        class="section-nav__link">Current Students</a>
+                                                    <a href="http://academics.nsuok.edu/businesstechnology/CBT-Standards"
+                                                        class="section-nav__link">CBT-Standards</a>
                                                 </li>
-                                                <li class="section-nav__item">
+                                                <li
+                                                    class="section-nav__item section-nav__item--last section-nav__item--has-child">
 
-                                                    <a href="http://www.nsuok.edu/NSUHome.aspx"
-                                                        class="section-nav__link">NSU Home</a>
-                                                </li>
-                                                <li class="section-nav__item section-nav__item--last">
-
-                                                    <a href="http://www.nsuok.edu/FutureStudents.aspx"
-                                                        class="section-nav__link">Future Students</a>
+                                                    <a href="http://academics.nsuok.edu/businesstechnology/HOA"
+                                                        class="section-nav__link">HOA</a>
                                                 </li>
 
                                             </ul>
 
                                         </div>
                                     </div>
-                                </div><!-- End_Module_3566 -->
+                                </div><!-- End_Module_48660 -->
                             </div>
                         </div>
                     </div>
@@ -469,58 +441,120 @@
                         <div class="box page-top">
                             <div class="container">
                                 <div id="dnn_ContentPane" class="content-pane content-pane--left">
-                                    <div class="DnnModule DnnModule-DNN_HTML DnnModule-7102 DnnVersionableControl"><a
-                                            name="7102"></a>
-                                        <div id="dnn_ctr7102_ContentPane">
-                                            <!-- Start_Module_7102 -->
-                                            <div id="dnn_ctr7102_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
-                                                <div id="dnn_ctr7102_HtmlModule_lblContent">
-                                                    <ul>
-                                                        <li><a href="/AboutUs/FAQs/Academics.aspx">Academics</a></li>
-                                                        <li><a href="/AboutUs/FAQs/Admissions.aspx">Admissions</a></li>
-                                                        <li><a href="/AboutUs/FAQs/BrokenArrow.aspx">Broken Arrow</a>
-                                                        </li>
-                                                        <li><a href="/AboutUs/FAQs/FinancialAid.aspx">Financial Aid</a>
-                                                        </li>
-                                                        <li><a href="/AboutUs/FAQs/First-TimeFreshmen.aspx">First-Time
-                                                                Freshmen</a></li>
-                                                        <li><a href="/AboutUs/FAQs/GeneralInformation.aspx">General
-                                                                Information</a></li>
-                                                        <li><a href="/AboutUs/FAQs/GraduateStudents.aspx">Graduate
-                                                                Students</a></li>
-                                                        <li><a href="/AboutUs/FAQs/LifeatNSU.aspx">Life at NSU</a></li>
-                                                        <li><a href="/AboutUs/FAQs/Registrar.aspx">Registrar</a></li>
-                                                        <li><a href="/AboutUs/FAQs/Scholarship.aspx">Scholarship</a>
-                                                        </li>
-                                                        <li><a href="/AboutUs/FAQs/Tahlequah.aspx">Tahlequah</a></li>
-                                                        <li><a href="/AboutUs/FAQs/TransferStudents.aspx">Transfer
-                                                                Students</a></li>
-                                                        <li><a href="/AboutUs/FAQs/Website.aspx">Website</a></li>
-                                                    </ul>
+                                    <div class="DnnModule DnnModule-DNN_HTML DnnModule-1709 DnnVersionableControl"><a
+                                            name="1709"></a>
+
+                                        <h2 class="title-lead"><span id="dnn_ctr1709_dnnTITLE_titleLabel"
+                                                class="Head">College of Business and Technology</span>
+
+
+                                        </h2>
+                                        <div id="dnn_ctr1709_ContentPane">
+                                            <!-- Start_Module_1709 -->
+                                            <div id="dnn_ctr1709_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+                                                <div id="dnn_ctr1709_HtmlModule_lblContent">
+                                                    <p>The College of Business & Technology is a student-centered
+                                                        college which provides innovative business education to its
+                                                        students. Our students graduate with high-quality degrees and
+                                                        professional expertise that put them in demand with area
+                                                        employers. We seek to maintain excellent faculty and staff.
+                                                        Faculty members strive for high levels of classroom performance
+                                                        and work hard to advance knowledge in their disciplines. The
+                                                        College of Business & Technology offers 13 undergraduate
+                                                        programs and four graduate programs. Classes are offered on both
+                                                        the Tahlequah and Broken Arrow campuses using traditional,
+                                                        blended, and online delivery methods. Class sizes are small
+                                                        allowing students to interact with faculty on a one-to-one
+                                                        basis. NSU and the College of Business & Technology are
+                                                        accredited by the Higher Learning Commission. In addition, the
+                                                        Accreditation Council for Business Schools and Programs (ACBSP)
+                                                        accredits all bachelor of business administration (BBA) degrees
+                                                        as well as the Master of Business Administration and the Master
+                                                        of Science in Accounting and Financial Analysis. ACBSP is one of
+                                                        the premier accrediting bodies for business schools. The faculty
+                                                        and staff of the College of Business & Technology look forward
+                                                        to helping you achieve your educational and professional goals.
+                                                        Academic Advisors and Faculty Mentors are available to help with
+                                                        the details. Contact us at 918.444.2900 or cbt@nsuok.edu.
+                                                    </p>
+                                                    <p><a href="https://www.nsuok.edu/News/Story/28547/Default.aspx"
+                                                            target="_blank">NSU Partners with VITA to Help Community
+                                                            Prepare Taxes</a>
+                                                    </p>
+                                                    <blockquote>
+                                                    </blockquote>
+                                                    <p>
+                                                        <a
+                                                            href="https://academics.nsuok.edu/businesstechnology/CBT-Standards.aspx">CBT
+                                                            Standards of Professional Behavior</a>
+                                                        (<a href="/LinkClick.aspx?fileticket=dyOXW87d_ug%3d&tabid=809">pdf
+                                                            file</a>)
+                                                    </p>
+                                                    <p><a href="/businesstechnology/Student-Outcomes.aspx">Using student
+                                                            outcome assessment data for improvement</a>
+                                                    </p>
+                                                    <p><a href="/businesstechnology/CBTAssessmentModel.aspx">CBT
+                                                            Assessment Model</a> (<a
+                                                            href="/LinkClick.aspx?fileticket=QG6BItZtYVQ%3d&tabid=809">pdf
+                                                            file</a>)
+                                                    </p>
+                                                    <p><a href="/businesstechnology/ACBSP.aspx">ACBSP <br>
+                                                        </a>
+                                                    </p>
+                                                    <p><a href="/Portals/22/pdfs/degrees-confirmed-2012-2017.pdf">College
+                                                            of Business and Technology - Conferred Degrees</a>
+                                                    </p>
+                                                    <p><a href="/businesstechnology/ACBSP.aspx"><br>
+                                                        </a>
+                                                    </p>
+                                                    <p><a href="http://www.acbsp.org/"><img alt=""
+                                                                src="/portals/22/ACBSP/ACBSP-logo.gif" width="127"
+                                                                height="152"><br>
+                                                        </a>
+                                                    </p>
+                                                    <p>The Accreditation Council for Business Schools and Programs
+                                                        (ACBSP) accredits all of our bachelor of business administration
+                                                        (BBA) programs as well as the Master of Business Administration,
+                                                        Professional Master of Business Administration, and Master of
+                                                        Science in Accounting and Financial Analysis.<a
+                                                            href="/businesstechnology/ACBSP.aspx"><br>
+                                                        </a>
+                                                    </p>
+                                                    <p><a href="/businesstechnology/ACBSP.aspx"><br>
+                                                        </a>
+                                                    </p>
+                                                    <p><a href="/businesstechnology/ACBSP.aspx"><br>
+                                                        </a>
+                                                    </p>
                                                 </div>
 
 
 
 
-                                            </div><!-- End_Module_7102 -->
+                                            </div><!-- End_Module_1709 -->
                                         </div>
                                     </div>
                                 </div>
                                 <div id="dnn_RightPane" class="content-pane content-pane--right">
-                                    <div class="DnnModule DnnModule-DNN_HTML DnnModule-7103 DnnVersionableControl"><a
-                                            name="7103"></a>
-                                        <div id="dnn_ctr7103_ContentPane">
-                                            <!-- Start_Module_7103 -->
-                                            <div id="dnn_ctr7103_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
-                                                <div id="dnn_ctr7103_HtmlModule_lblContent">
-                                                    <p><img alt="" width="356" height="520"
-                                                            src="/portals/0/images/356px/faqs.jpg" /></p>
+                                    <div class="DnnModule DnnModule-DNN_HTML DnnModule-48651 DnnVersionableControl"><a
+                                            name="48651"></a>
+                                        <div id="dnn_ctr48651_ContentPane">
+                                            <!-- Start_Module_48651 -->
+                                            <div id="dnn_ctr48651_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+                                                <div id="dnn_ctr48651_HtmlModule_lblContent">
+                                                    <center><a
+                                                            href="https://thebestschools.org/rankings/affordable-online-mba-programs/#nsuok"
+                                                            target="_blank" title="opens in new window"><img
+                                                                alt="NSU Voted Best and Most Affordable Grad Program in Nation."
+                                                                src="/portals/0/images/event-images/best-in-nation.jpg" /></a>
+                                                        <p>&nbsp;</p>
+                                                    </center>
                                                 </div>
 
 
 
 
-                                            </div><!-- End_Module_7103 -->
+                                            </div><!-- End_Module_48651 -->
                                         </div>
                                     </div>
                                 </div>
@@ -535,23 +569,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="dnn_PageAsides" class="page-asides">
-                        <div class="DnnModule DnnModule-DNN_HTML DnnModule-9373 DnnVersionableControl"><a
-                                name="9373"></a>
-                            <div id="dnn_ctr9373_ContentPane">
-                                <!-- Start_Module_9373 -->
-                                <script type="text/javascript"
-                                    src="//bot.ivy.ai/bot/script/category/WXkA24zjBRb5K8lZ5YGYyDwvo19NdZOQ"></script>
-                                <div id="dnn_ctr9373_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
-                                    <div id="dnn_ctr9373_HtmlModule_lblContent"></div>
-
-
-
-
-                                </div><!-- End_Module_9373 -->
-                            </div>
-                        </div>
-                    </div>
+                    <div id="dnn_PageAsides" class="page-asides DNNEmptyPane"></div>
                 </div>
             </main>
             <footer class="site-footer" role="contentinfo">
@@ -805,17 +823,17 @@
 
         <input name="ScrollTop" type="hidden" id="ScrollTop" />
         <input name="__dnnVariable" type="hidden" id="__dnnVariable" autocomplete="off"
-            value="`{`trackLinks`:`false`,`__scdoff`:`1`,`sf_siteRoot`:`/`,`sf_tabId`:`2449`,`evoq_TabId`:`2449`,`evoq_PageLanguage`:`en-US`,`evoq_ContentItemId`:`-1`,`evoq_UrlReferrer`:``,`evoq_UrlPath`:`http%3a%2f%2fwww.nsuok.edu%2fAboutUs%2fFAQs.aspx`,`evoq_UrlQuery`:`%3fTabID%3d2449`,`evoq_ContentItemReferrer`:`-1`,`evoq_PersonalizedUrlReferrer`:`-1`,`evoq_DisableAnalytics`:`False`}" />
+            value="`{`trackLinks`:`false`,`__scdoff`:`1`,`sf_siteRoot`:`/businesstechnology/`,`sf_tabId`:`809`,`evoq_TabId`:`809`,`evoq_PageLanguage`:`en-US`,`evoq_ContentItemId`:`-1`,`evoq_UrlReferrer`:``,`evoq_UrlPath`:`http%3a%2f%2facademics.nsuok.edu%2fbusinesstechnology`,`evoq_UrlQuery`:`%3fTabId%3d809%26language%3den-US`,`evoq_ContentItemReferrer`:`-1`,`evoq_PersonalizedUrlReferrer`:`-1`,`evoq_DisableAnalytics`:`False`}" />
         <input name="__RequestVerificationToken" type="hidden"
-            value="SRTMdNtv-st6La0YwBE462p2o6Szu325AFqVY0I_-hY5tFrqxbmBp0e31rLpZq-xoq3__A2" />
+            value="FBVKBohmEFAnOmxZArigckzFQyaXX8Zx-SQ2pahlNYe_lARDNM78aHFGFWvfUk0u0nRJrQ2" />
     </form>
-    <!--CDF(Javascript|/js/dnncore.js?cdv=255)-->
-    <!--CDF(Css|/Resources/Shared/stylesheets/dnndefault/7.0.0/default.css?cdv=255)-->
-    <!--CDF(Css|/Portals/_default/Skins/nsuMain/skin.css?cdv=255)-->
-    <!--CDF(Css|/Portals/0/portal.css?cdv=255)-->
-    <!--CDF(Javascript|/js/dnn.js?cdv=255)-->
-    <!--CDF(Javascript|/js/dnn.servicesframework.js?cdv=255)-->
-    <!--CDF(Javascript|/Resources/libraries/jQuery/01_09_01/jquery.js?cdv=255)-->
+    <!--CDF(Javascript|/js/dnncore.js?cdv=214)-->
+    <!--CDF(Css|/Resources/Shared/stylesheets/dnndefault/7.0.0/default.css?cdv=214)-->
+    <!--CDF(Css|/Portals/_default/Skins/nsuMain/skin.css?cdv=214)-->
+    <!--CDF(Css|/Portals/22/portal.css?cdv=214)-->
+    <!--CDF(Javascript|/js/dnn.js?cdv=214)-->
+    <!--CDF(Javascript|/js/dnn.servicesframework.js?cdv=214)-->
+    <!--CDF(Javascript|/Resources/libraries/jQuery/01_09_01/jquery.js?cdv=214)-->
 
 </body>
 
