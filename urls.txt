@@ -1,3 +1,36 @@
+HTML CLEANING & ACCESSIBILITY
+
 https://iremvarol.github.io/northeastern/nsu-home-style-container-styles.html
 https://iremvarol.github.io/northeastern/nsu-home-style-grid.html
 https://iremvarol.github.io/northeastern/nsu-home-style-text-treatment.html
+
+
+---------------------------------------------------------
+
+ONLY SCHEMA MARKUP 
+
+
+University Home Page
+https://iremvarol.github.io/northeastern/index.html
+
+
+College Department Page
+https://iremvarol.github.io/northeastern/academics-home-cbt-home.html
+
+
+Web Page - Major
+Educational Credential – Degree Name  (on same page as major)
+https://iremvarol.github.io/northeastern/academics-home-mathematics-program-home-information-for-students-degrees-and-majors-undergraduate-bs-computer-science.html
+
+
+Course
+https://iremvarol.github.io/northeastern/nsu-home-future-students-computers-in-modern-society.html
+
+Video
+https://iremvarol.github.io/northeastern/nsu-home-broken-arrow.html
+
+
+FAQs
+https://iremvarol.github.io/northeastern/nsu-home-about-us-faqs.html
+
+
