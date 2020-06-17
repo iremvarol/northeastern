@@ -17,7 +17,7 @@
    /* 2 */
    -webkit-text-size-adjust: 100%;
    /* 2 */ }
- 
+  
  /**
   * Remove default margin.
   */
@@ -1160,7 +1160,8 @@ main a {
    height: 1px;
    width: 1px;
    overflow: hidden;
-   clip: rect(1px, 1px, 1px, 1px); }
+   clip: rect(1px, 1px, 1px, 1px);
+   color: #fff; }
  
  .group:after, .container:after, .container-large:after, .link-block:after, .button-list:after, .global__list:after, .main-nav__list:after, .section-nav__list:after, .section-nav__child:after, .float-clear:after {
    clear: both;
@@ -1282,7 +1283,9 @@ main a {
      background: #fff;
      color: #276444; }
  
- 
+ .btn-alt-bg {
+   background-color: #31774F !important;
+ }
  .btn-more {
    padding: 12px 20px;
    border: 1px solid #999;
@@ -1619,7 +1622,7 @@ main a {
    background: url(../images/bg-statue-solid.png) bottom right no-repeat #276444;
    color: #fff; }
  
- .DnnModule {
+ .NEMoudule {
    margin-bottom: 20px; }
  
  #dnn_Row3Title .DnnModule, #dnn_FullRowTitle .DnnModule, #dnn_FullRow .DnnModule, #dnn_HeroPane .DnnModule, .global-bar .DnnModule, #dnn_ArrowLeft .DnnModule, #dnn_ArrowMiddle .DnnModule, #dnn_ArrowRight .DnnModule, #dnn_AlertPane .DnnModule {
@@ -2533,7 +2536,7 @@ main a {
        -ms-transform: translate(0, -56px);
        transform: translate(0, -56px);
        top: 0;
-       right: 350px;
+       right: 0px;
        width: 400px;
        background: #1d4a33; }
        .header-search.open {

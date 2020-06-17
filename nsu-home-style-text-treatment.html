@@ -26,7 +26,6 @@
 	<script src="./axd/ScriptResource.axd" type="text/javascript"></script>
 	<script src="./axd/ScriptResource2.axd" type="text/javascript"></script>
 
-
 </head>
 
 <body id="Body">
@@ -40,7 +39,7 @@
 						<a href="https://www.nsuok.edu/" class="site-logo">NSU</a>
 					</div>
 
-					<button type="button" data-togglemenu="mainNav" class="menu-toggle">
+					<button type="button" class="menu-toggle">
 						<span class="menu-bars">
 							<span class="menu-bar top"></span>
 							<span class="menu-bar middle"></span>
@@ -50,18 +49,18 @@
 					</button>
 				</div>
 
-				<div class="nav" data-menu="mainNav">
+				<div class="nav">
 					<div class="nav__container">
 						<div class="nav__wrapper">
-							<div class="global-bar" data-ng-app="Global">
-								<div class="global__container" data-ng-controller="GlobalLinksCtrl">
+							<div class="global-bar">
+								<div class="global__container">
 									<div id="GlobalLeft" class="global global--left">
 										<div>
 											<button type="button" class="global__button global__button--campuses"
-												data-ng-click="toggleCampuses()" aria-hidden="true"><span
-													class="icon-global-arrow"></span> Campuses</button>
-											<div class="global__dropdown" data-ng-class="{'open': campusesOpen}"
-												data-dropdown="campusDropdown">
+												aria-hidden="true">
+												<span class="icon-global-arrow"></span> Campuses
+											</button>
+											<div class="global__dropdown">
 												<ul class="global__list">
 													<li class="global__item">
 														<a href="https://www.nsuok.edu/tahlequah.aspx"
@@ -89,61 +88,79 @@
 											</ul>
 										</div>
 									</div>
+
 									<div class="global global--right">
-										<div id="GlobalRight" data-ng-repeat="link in links">
+										<a name="3621"></a>
+										<div class="sc-content-block" data-cb-instance="3621" data-cb-id="3621">
+
 											<ul class="global__list">
 												<li class="global__item">
-													<a href="https://www.nsuok.edu/tahlequah.aspx" class="global__link"
-														target="{{ link.link_five_target }}"
-														title="{{ link.link_five_title_attr }}"
-														data-ng-cloak>{{ link.link_five_title }}</a>
+													<a href="https://www.nsuok.edu" class="global__link">NSU Home</a>
 												</li>
 												<li class="global__item">
-													<a href="https://www.nsuok.edu/muskogee.aspx" class="global__link"
-														target="{{ link.link_six_target }}"
-														title="{{ link.link_six_title_attr }}"
-														data-ng-cloak>{{ link.link_six_title }}</a>
+													<a href="https://www.nsuok.edu/directory"
+														class="global__link">Directory</a>
 												</li>
 												<li class="global__item">
-													<a href="https://www.nsuok.edu/brokenarrow.aspx"
-														class="global__link" target="{{ link.link_seven_target }}"
-														title="{{ link.link_seven_title_attr }}"
-														data-ng-cloak>{{ link.link_seven_title }}</a>
+													<a href="https://www.nsuok.edu/campusmaps.aspx"
+														class="global__link">Campus Map</a>
 												</li>
 												<li class="global__item">
-													<a href="https://academics.nsuok.edu/online"
-														class="global__link go-nsu-link"
-														target="{{ link.link_eight_target }}"
-														title="{{ link.link_eight_title_attr }}"
-														data-ng-cloak>{{ link.link_eight_title }}</a>
+													<a href="https://go.nsuok.edu"
+														class="global__link go-nsu-link">goNSU</a>
 												</li>
 												<li class="global__item">
-													<a href="https://academics.nsuok.edu/graduatecollege"
-														class="global__link" target="{{ link.link_nine_target }}"
-														title="{{ link.link_nine_title_attr }}"
-														data-ng-cloak>{{ link.link_nine_title }}</a>
+													<a href="https://www.nsuok.edu/MyNSU.aspx" class="global__link">My
+														NSU</a>
 												</li>
 												<li class="global__item" aria-hidden="true">
 													<button id="searchToggle"
 														class="global__button global__button--search" type="button"
-														data-ng-click="toggleSearch()"><span
-															class="icon-search-toggle"></span> Search</button>
+														data-toggleDropdown="searchDropdown"><span
+															class="icon-search-toggle"></span>
+														Search</button>
 												</li>
 											</ul>
+
 										</div>
+										<div id="lxT8311">
+											<!--
+														Start of DoubleClick Floodlight Tag: Please do not remove
+														Activity name of this tag: Retargeting
+														URL of the webpage where the tag is expected to be placed: https://nsuok.edu/FutureStudents.aspx
+														This tag must be placed between the <body> and </body> tags, as close as possible to the opening tag.
+														Creation Date: 01/13/2017
+														-->
+											<script type="text/javascript">
+												var axel = Math.random() + "";
+												var a = axel * 10000000000000;
+												document.write(
+													'<iframe src="https://6417124.fls.doubleclick.net/activityi;src=6417124;type=rt;cat=retar0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' +
+													a +
+													'?" width="1" height="1" style="display:none; border:none"></iframe>'
+												);
+											</script>
+											<noscript>
+												<iframe
+													src="https://6417124.fls.doubleclick.net/activityi;src=6417124;type=rt;cat=retar0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?"
+													width="1" height="1" style="display:none; border:none"></iframe>
+											</noscript>
+											<!-- End of DoubleClick Floodlight Tag: Please do not remove -->
+										</div>
+
+										<div id="cse-search-box" class="header-search" data-dropdown="searchDropdown">
+											<label for="dnn_dnnSEARCH_q" id="dnn_dnnSEARCH_sa_label"
+												class="visually-hidden">Search NSU</label>
+											<input name="dnn$dnnSEARCH$q" type="text" id="dnn_dnnSEARCH_q" size="31"
+												class="header-search__input" placeholder="Enter Search Terms"
+												autocomplete="off"
+												onkeydown="return __dnn_KeyDown(&#39;13&#39;, &#39;javascript:__doPostBack(%27dnn$dnnSEARCH$sa%27,%27%27)&#39;, event);" />
+											<a id="dnn_dnnSEARCH_sa" class="nsusearch" name="sa"
+												href="javascript:__doPostBack(&#39;dnn$dnnSEARCH$sa&#39;,&#39;&#39;)">Search</a>
+										</div>
+
 									</div>
 								</div>
-							</div>
-
-							<div id="cse-search-box" class="header-search open" data-ng-class="{'open': searchOpen}"
-								data-dropdown="searchDropdown">
-								<label for="dnn_dnnSEARCH_q" id="dnn_dnnSEARCH_sa_label" class="visually-hidden">Search
-									NSU</label>
-								<input name="dnn$dnnSEARCH$q" type="text" id="dnn_dnnSEARCH_q" size="31"
-									class="header-search__input" placeholder="Enter Search Terms" autocomplete="off"
-									onkeydown="return __dnn_KeyDown('13', 'javascript:__doPostBack(%27dnn$dnnSEARCH$sa%27,%27%27)', event);">
-								<a id="dnn_dnnSEARCH_sa" class="nsusearch" name="sa"
-									href="javascript:__doPostBack('dnn$dnnSEARCH$sa','')">Search</a>
 							</div>
 
 							<nav class="main-nav" role="navigation" aria-label="Main Navigation">
@@ -189,8 +206,7 @@
 					<div class="breadcrumb">
 						<a href="https://www.nsuok.edu" class="breadcrumb__link">NSU Home</a>
 						<span class="breadcrumb__separator">/</span>
-						<span id="dnn_dnnBreadcrumb_lblBreadCrumb" itemscope=""
-							itemtype="https://schema.org/breadcrumb"><span itemscope
+						<span itemscope="" itemtype="https://schema.org/breadcrumb"><span itemscope
 								itemtype="http://schema.org/BreadcrumbList"><span itemprop="itemListElement" itemscope
 									itemtype="http://schema.org/ListItem"><a href="http://www.nsuok.edu/Style.aspx"
 										class="breadcrumb__link" itemprop="item"><span itemprop="name">Style</span></a>
@@ -203,103 +219,91 @@
 					</div>
 				</div>
 
-				<div class="container relative">
-					<div id="dnn_ActionBoxPane" class="DNNEmptyPane"></div>
-				</div>
+				<div class="container relative"> </div>
 				<h1 class="page-title">Text Treatment</h1>
 				<div class="container">
-					<div id="dnn_PageNavigation" class="page-navigation">
-						<div class="DnnModule DnnModule-DDRMenu DnnModule-3566"><a name="3566"></a>
-							<div id="dnn_ctr3566_ContentPane">
-								<!-- Start_Module_3566 -->
-								<div id="dnn_ctr3566_ModuleContent" class="DNNModuleContent ModDDRMenuC">
-									<div role="navigation" aria-label="Section Navigation" class="section-nav">
-										<button type="button" class="btn-select" data-toggledropdown="sectionNav"
-											aria-hidden="true">Explore this Section</button>
-										<div data-dropdown="sectionNav" class="section-nav__wrapper">
-											<ul class="section-nav__list">
-												<li
-													class="section-nav__item section-nav__item--first section-nav__item--has-child">
+					<div class="page-navigation">
+						<div><a name="3566"></a>
+							<div role="navigation" aria-label="Section Navigation" class="section-nav">
+								<button type="button" class="btn-select" data-toggledropdown="sectionNav"
+									aria-hidden="true">Explore this Section</button>
+								<div data-dropdown="sectionNav" class="section-nav__wrapper">
+									<ul class="section-nav__list">
+										<li
+											class="section-nav__item section-nav__item--first section-nav__item--has-child">
 
-													<a href="http://www.nsuok.edu/AboutUs.aspx"
-														class="section-nav__link">About Us</a>
-												</li>
-												<li class="section-nav__item section-nav__item--has-child">
+											<a href="http://www.nsuok.edu/AboutUs.aspx" class="section-nav__link">About
+												Us</a>
+										</li>
+										<li class="section-nav__item section-nav__item--has-child">
 
-													<a href="http://www.nsuok.edu/CampusLife.aspx"
-														class="section-nav__link">Campus Life</a>
-												</li>
-												<li class="section-nav__item section-nav__item--has-child">
+											<a href="http://www.nsuok.edu/CampusLife.aspx"
+												class="section-nav__link">Campus Life</a>
+										</li>
+										<li class="section-nav__item section-nav__item--has-child">
 
-													<a href="http://www.nsuok.edu/Academics.aspx"
-														class="section-nav__link">Academics</a>
-												</li>
-												<li class="section-nav__item section-nav__item--has-child">
+											<a href="http://www.nsuok.edu/Academics.aspx"
+												class="section-nav__link">Academics</a>
+										</li>
+										<li class="section-nav__item section-nav__item--has-child">
 
-													<a href="http://www.nsuok.edu/Outreach.aspx"
-														class="section-nav__link">Outreach</a>
-												</li>
-												<li class="section-nav__item section-nav__item--has-child">
+											<a href="http://www.nsuok.edu/Outreach.aspx"
+												class="section-nav__link">Outreach</a>
+										</li>
+										<li class="section-nav__item section-nav__item--has-child">
 
-													<a href="http://www.nsuok.edu/Calendar.aspx"
-														class="section-nav__link">Calendar</a>
-												</li>
-												<li class="section-nav__item section-nav__item--has-child">
+											<a href="http://www.nsuok.edu/Calendar.aspx"
+												class="section-nav__link">Calendar</a>
+										</li>
+										<li class="section-nav__item section-nav__item--has-child">
 
-													<a href="http://www.nsuok.edu/CampusMaps.aspx"
-														class="section-nav__link">Campus Maps</a>
-												</li>
-												<li class="section-nav__item section-nav__item--has-child">
+											<a href="http://www.nsuok.edu/CampusMaps.aspx"
+												class="section-nav__link">Campus Maps</a>
+										</li>
+										<li class="section-nav__item section-nav__item--has-child">
 
-													<a href="http://www.nsuok.edu/Administration.aspx"
-														class="section-nav__link">Administration</a>
-												</li>
-												<li class="section-nav__item">
+											<a href="http://www.nsuok.edu/Administration.aspx"
+												class="section-nav__link">Administration</a>
+										</li>
+										<li class="section-nav__item">
 
-													<a href="http://www.nsuok.edu/ContactUs.aspx"
-														class="section-nav__link">Contact Us</a>
-												</li>
-												<li class="section-nav__item">
+											<a href="http://www.nsuok.edu/ContactUs.aspx"
+												class="section-nav__link">Contact Us</a>
+										</li>
+										<li class="section-nav__item">
 
-													<a href="http://www.nsuok.edu/CurrentStudents.aspx"
-														class="section-nav__link">Current Students</a>
-												</li>
-												<li class="section-nav__item">
+											<a href="http://www.nsuok.edu/CurrentStudents.aspx"
+												class="section-nav__link">Current Students</a>
+										</li>
+										<li class="section-nav__item">
 
-													<a href="http://www.nsuok.edu/NSUHome.aspx"
-														class="section-nav__link">NSU Home</a>
-												</li>
-												<li class="section-nav__item section-nav__item--last">
+											<a href="http://www.nsuok.edu/NSUHome.aspx" class="section-nav__link">NSU
+												Home</a>
+										</li>
+										<li class="section-nav__item section-nav__item--last">
 
-													<a href="http://www.nsuok.edu/FutureStudents.aspx"
-														class="section-nav__link">Future Students</a>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div><!-- End_Module_3566 -->
+											<a href="http://www.nsuok.edu/FutureStudents.aspx"
+												class="section-nav__link">Future Students</a>
+										</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
 
 					<div class="page-main">
-						<div id="dnn_ContentTopPane" class="DNNEmptyPane"></div>
 						<div class="box page-top">
 							<div class="container">
-								<div id="dnn_ContentPane" class="content-pane content-pane--left">
-									<div class="DnnModule DnnModule-DNN_HTML DnnModule-3637 DnnVersionableControl"><a
-											name="3637"></a>
+								<div class="content-pane content-pane--left">
+										<a name="3637"></a>
 										<div class="pane-alt">
 											<h2 class="arrow-inline arrow-inline--green">
-												<span id="dnn_ctr3637_dnnTITLE_titleLabel" class="Head">General Best
+												<span class="Head">General Best
 													Practices</span>
 											</h2>
 											<div class="container-block">
-												<div id="dnn_ctr3637_ContentPane">
-													<!-- Start_Module_3637 -->
-													<div id="dnn_ctr3637_ModuleContent"
-														class="DNNModuleContent ModDNNHTMLC">
-														<div id="dnn_ctr3637_HtmlModule_lblContent">
+		
+														<div>
 															<p>The following tips build on the <a
 																	href="http://www.plainlanguage.gov/"
 																	target="_blank">Federal Plain Language
@@ -321,20 +325,13 @@
 																</li>
 															</ul>
 														</div>
-													</div><!-- End_Module_3637 -->
-												</div>
 											</div>
 										</div>
-									</div>
 								</div>
 
-								<div id="dnn_RightPane" class="content-pane content-pane--right">
-									<div class="DnnModule DnnModule-DNN_HTML DnnModule-3638 DnnVersionableControl"><a
-											name="3638"></a>
-										<div id="dnn_ctr3638_ContentPane">
-											<!-- Start_Module_3638 -->
-											<div id="dnn_ctr3638_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
-												<div id="dnn_ctr3638_HtmlModule_lblContent">
+								<div class="content-pane content-pane--right">
+									<a name="3638"></a>
+												<div>
 													<h1>h1</h1>
 													<h2>h2</h2>
 													<h3>h3</h3>
@@ -342,7 +339,9 @@
 													<h5>h5</h5>
 													<p>p</p>
 													<p><a class="btn-primary" href="#">btn-primary</a></p>
-													<p><a class="btn-alt" href="#">btn-alt</a> &lt;&lt; hover for
+													<p aria-hidden="true">
+														<a class="btn-alt" aria-hidden="true" href="#">btn-alt</a>
+														&lt;&lt; hover for
 														btn-alt</p>
 													<p><a class="btn-more" href="#">btn-more</a></p>
 													<p>blockquote</p>
@@ -350,29 +349,21 @@
 															class="btn-primary btn--block">Application</a></p>
 													<br />
 												</div>
-											</div><!-- End_Module_3638 -->
-										</div>
-									</div>
+									
 								</div>
 							</div>
 						</div>
 
-						<div id="dnn_ContentBottomPane" class="DNNEmptyPane"></div>
 						<div class="container">
-							<div id="dnn_Bottom_LeftPane" class="content-pane content-pane--bottom-left">
-								<div class="DnnModule DnnModule-DNN_HTML DnnModule-3640 DnnVersionableControl"><a
-										name="3640"></a>
+							<div class="content-pane content-pane--bottom-left">
+								<a name="3640"></a>
 									<div class="pane">
 										<h2 class="arrow-below arrow-below--yellow">
-											<span id="dnn_ctr3640_dnnTITLE_titleLabel" class="Head">Mobile-Friendly
+											<span class="Head">Mobile-Friendly
 												Content</span>
 										</h2>
 										<div class="container-block">
-											<div id="dnn_ctr3640_ContentPane">
-												<!-- Start_Module_3640 -->
-												<div id="dnn_ctr3640_ModuleContent"
-													class="DNNModuleContent ModDNNHTMLC">
-													<div id="dnn_ctr3640_HtmlModule_lblContent">
+					                        
 														<h3>Scannable content</h3>
 														<p>Make content easy to scan. Headers that divide content areas
 															make it easier to scroll through text to find what's
@@ -410,28 +401,22 @@
 															will have, or if they're in an area with poor service.
 															Images and files should only be as large as necessary, and
 															no larger. </p>
-													</div>
-												</div><!-- End_Module_3640 -->
-											</div>
+												
+											
 										</div>
 									</div>
-								</div>
+								
 							</div>
 
-							<div id="dnn_Bottom_RightPane" class="content-pane content-pane--bottom-right">
-								<div class="DnnModule DnnModule-DNN_HTML DnnModule-3641 DnnVersionableControl"><a
-										name="3641"></a>
+							<div class="NEMoudule content-pane content-pane--bottom-right">
+								<a	name="3641"></a>
 									<div class="pane">
 										<h2 class="arrow-below">
-											<span id="dnn_ctr3641_dnnTITLE_titleLabel" class="Head">SEO-Friendly
+											<span class="Head">SEO-Friendly
 												Content</span>
 										</h2>
 										<div class="container-block">
-											<div id="dnn_ctr3641_ContentPane">
-												<!-- Start_Module_3641 -->
-												<div id="dnn_ctr3641_ModuleContent"
-													class="DNNModuleContent ModDNNHTMLC">
-													<div id="dnn_ctr3641_HtmlModule_lblContent">
+											
 														<h3>Write for humans; not for robots.&nbsp;</h3>
 														<p>When you write content, make sure it's readable by humans.
 															This is more important than making sure your content is
@@ -477,19 +462,15 @@
 															to include similar keywords. For instance, a Tweet might
 															read: <em>Three new classes will be available online
 																starting this Fall [link] #nsu #onlineclasses</em></p>
-													</div>
-												</div><!-- End_Module_3641 -->
-											</div>
-
+											
 										</div>
 
 									</div>
-								</div>
+								
 							</div>
 						</div>
 					</div>
 
-					<div id="dnn_PageAsides" class="page-asides DNNEmptyPane"></div>
 				</div>
 			</main>
 			<footer class="site-footer" role="contentinfo">
@@ -497,7 +478,7 @@
 				<div class="container" id="siteFooter">
 					<div class="content-footer-left">
 						<div class="container">
-							<div class="footer-left" data-ng-controller="FooterLeftCtrl">
+							<div class="footer-left">
 								<h3 class="footer-title">Future Students</h3>
 								<ul class="plain-list">
 									<li>
@@ -525,7 +506,7 @@
 								</ul>
 							</div>
 
-							<div class="footer-middle" data-ng-controller="FooterMiddleCtrl">
+							<div class="footer-middle">
 								<h3 class="footer-title">Current Students</h3>
 								<ul class="plain-list">
 									<li>
@@ -552,7 +533,7 @@
 								</ul>
 							</div>
 
-							<div class="footer-right" data-ng-controller="FooterRightCtrl">
+							<div class="footer-right">
 								<h3 class="footer-title">Academics</h3>
 								<ul class="plain-list">
 									<li>
@@ -704,7 +685,7 @@
 					</div>
 				</div>
 				<div class="supplementary" id="globalFooter">
-					<div class="container" data-ng-controller="GlobalFooterCtrl">
+					<div class="container">
 						<ul class="linear">
 							<li>
 								<a href="http://www.nsuok.edu/ContactUs.aspx">Contact Us</a>
