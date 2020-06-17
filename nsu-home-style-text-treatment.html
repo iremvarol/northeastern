@@ -149,14 +149,14 @@
 										</div>
 
 										<div id="cse-search-box" class="header-search" data-dropdown="searchDropdown">
-											<label for="dnn_dnnSEARCH_q" id="dnn_dnnSEARCH_sa_label"
-												class="visually-hidden">Search NSU</label>
-											<input name="dnn$dnnSEARCH$q" type="text" id="dnn_dnnSEARCH_q" size="31"
+											<label for="search" id="search-label" class="visually-hidden">Search
+												NSU</label>
+											<input name="search" type="text" id="search" size="31"
 												class="header-search__input" placeholder="Enter Search Terms"
 												autocomplete="off"
-												onkeydown="return __dnn_KeyDown(&#39;13&#39;, &#39;javascript:__doPostBack(%27dnn$dnnSEARCH$sa%27,%27%27)&#39;, event);" />
-											<a id="dnn_dnnSEARCH_sa" class="nsusearch" name="sa"
-												href="javascript:__doPostBack(&#39;dnn$dnnSEARCH$sa&#39;,&#39;&#39;)">Search</a>
+												onkeydown="return KeyDown(&#39;13&#39;, &#39;javascript:__doPostBack(%27SEARCH$sa%27,%27%27)&#39;, event);" />
+											<a class="nsusearch" name="sa"
+												href="javascript:__doPostBack(&#39;SEARCH$sa&#39;,&#39;&#39;)">Search</a>
 										</div>
 
 									</div>
@@ -295,61 +295,61 @@
 						<div class="box page-top">
 							<div class="container">
 								<div class="content-pane content-pane--left">
-										<a name="3637"></a>
-										<div class="pane-alt">
-											<h2 class="arrow-inline arrow-inline--green">
-												<span class="Head">General Best
-													Practices</span>
-											</h2>
-											<div class="container-block">
-		
-														<div>
-															<p>The following tips build on the <a
-																	href="http://www.plainlanguage.gov/"
-																	target="_blank">Federal Plain Language
-																	Guidelines</a>:</p>
-															<ul>
-																<li><strong>Be actionable</strong>. Every page should
-																	have one primary call to action. If a single page
-																	has more than five calls to action, reconsider the
-																	purpose of that page.</li>
-																<li><strong>Be strategic</strong>. What is the
-																	highest-priority information on that page? Does it
-																	have a prominent position and an eye-catching module
-																	design?
-																</li>
-																<li><strong>Be concise</strong>. If you can cut a
-																	sentence in half, try it.</li>
-																<li><strong>Be precise</strong>. Use the terms of your
-																	audience; give common words common meaning.&nbsp;
-																</li>
-															</ul>
-														</div>
+									<a name="3637"></a>
+									<div class="pane-alt">
+										<h2 class="arrow-inline arrow-inline--green">
+											<span class="Head">General Best
+												Practices</span>
+										</h2>
+										<div class="container-block">
+
+											<div>
+												<p>The following tips build on the <a
+														href="http://www.plainlanguage.gov/" target="_blank">Federal
+														Plain Language
+														Guidelines</a>:</p>
+												<ul>
+													<li><strong>Be actionable</strong>. Every page should
+														have one primary call to action. If a single page
+														has more than five calls to action, reconsider the
+														purpose of that page.</li>
+													<li><strong>Be strategic</strong>. What is the
+														highest-priority information on that page? Does it
+														have a prominent position and an eye-catching module
+														design?
+													</li>
+													<li><strong>Be concise</strong>. If you can cut a
+														sentence in half, try it.</li>
+													<li><strong>Be precise</strong>. Use the terms of your
+														audience; give common words common meaning.&nbsp;
+													</li>
+												</ul>
 											</div>
 										</div>
+									</div>
 								</div>
 
 								<div class="content-pane content-pane--right">
 									<a name="3638"></a>
-												<div>
-													<h1>h1</h1>
-													<h2>h2</h2>
-													<h3>h3</h3>
-													<h4>h4</h4>
-													<h5>h5</h5>
-													<p>p</p>
-													<p><a class="btn-primary" href="#">btn-primary</a></p>
-													<p aria-hidden="true">
-														<a class="btn-alt" aria-hidden="true" href="#">btn-alt</a>
-														&lt;&lt; hover for
-														btn-alt</p>
-													<p><a class="btn-more" href="#">btn-more</a></p>
-													<p>blockquote</p>
-													<p><a href="http://www.google.com"
-															class="btn-primary btn--block">Application</a></p>
-													<br />
-												</div>
-									
+									<div>
+										<h1>h1</h1>
+										<h2>h2</h2>
+										<h3>h3</h3>
+										<h4>h4</h4>
+										<h5>h5</h5>
+										<p>p</p>
+										<p><a class="btn-primary" href="#">btn-primary</a></p>
+										<p aria-hidden="true">
+											<a class="btn-alt" aria-hidden="true" href="#">btn-alt</a>
+											&lt;&lt; hover for
+											btn-alt</p>
+										<p><a class="btn-more" href="#">btn-more</a></p>
+										<p>blockquote</p>
+										<p><a href="http://www.google.com"
+												class="btn-primary btn--block">Application</a></p>
+										<br />
+									</div>
+
 								</div>
 							</div>
 						</div>
@@ -357,116 +357,116 @@
 						<div class="container">
 							<div class="content-pane content-pane--bottom-left">
 								<a name="3640"></a>
-									<div class="pane">
-										<h2 class="arrow-below arrow-below--yellow">
-											<span class="Head">Mobile-Friendly
-												Content</span>
-										</h2>
-										<div class="container-block">
-					                        
-														<h3>Scannable content</h3>
-														<p>Make content easy to scan. Headers that divide content areas
-															make it easier to scroll through text to find what's
-															relevant to each user. Bulleted listed make it easier to
-															find keywords than a paragraph of text.</p>
-														<h3>Chunked content</h3>
-														<p>Break content into groups when possible, and style modules
-															with different module skins to make it clear on first glance
-															what is most important on the page. You can check how the
-															modules will float on tablets and smartphones by making your
-															browser thinner. </p>
-														<h3>Keep it simple.</h3>
-														<p>Each page should be about one main topic. A page that is
-															about parking on the Broken Arrow campus and about
-															professors in the Physics department is confusing for users
-															and confusing for search engines. Keep content simple and
-															straightforward, and break it up into small, easy to read
-															chunks.&nbsp;</p>
-														<p>Some sources recommend having about 500 words per page for
-															good search engine optimization. This number tends to change
-															frequently, but in general you should make sure your page
-															has enough content that it's worthwhile, but not too much
-															content that it gets overwhelming. This range is typically
-															between 50 and 800 words.&nbsp;</p>
-														<p>Less is more, especially with the screen real estate of a
-															smartphone. Does that paragraph need to be on this page? Can
-															it be shortened into a sentence?</p>
-														<h3>Tables are for non-tabular data</h3>
-														<p>Columns should be defined by the proper classes (not tables),
-															so they float vertically on a very-thin browser. See an <a
-																href="/Style/Grid.aspx">example of the grid system</a>.
-														</p>
-														<h3>Minimize file size</h3>
-														<p>Page speed matters. You don't know what data plan a person
-															will have, or if they're in an area with poor service.
-															Images and files should only be as large as necessary, and
-															no larger. </p>
-												
-											
-										</div>
+								<div class="pane">
+									<h2 class="arrow-below arrow-below--yellow">
+										<span class="Head">Mobile-Friendly
+											Content</span>
+									</h2>
+									<div class="container-block">
+
+										<h3>Scannable content</h3>
+										<p>Make content easy to scan. Headers that divide content areas
+											make it easier to scroll through text to find what's
+											relevant to each user. Bulleted listed make it easier to
+											find keywords than a paragraph of text.</p>
+										<h3>Chunked content</h3>
+										<p>Break content into groups when possible, and style modules
+											with different module skins to make it clear on first glance
+											what is most important on the page. You can check how the
+											modules will float on tablets and smartphones by making your
+											browser thinner. </p>
+										<h3>Keep it simple.</h3>
+										<p>Each page should be about one main topic. A page that is
+											about parking on the Broken Arrow campus and about
+											professors in the Physics department is confusing for users
+											and confusing for search engines. Keep content simple and
+											straightforward, and break it up into small, easy to read
+											chunks.&nbsp;</p>
+										<p>Some sources recommend having about 500 words per page for
+											good search engine optimization. This number tends to change
+											frequently, but in general you should make sure your page
+											has enough content that it's worthwhile, but not too much
+											content that it gets overwhelming. This range is typically
+											between 50 and 800 words.&nbsp;</p>
+										<p>Less is more, especially with the screen real estate of a
+											smartphone. Does that paragraph need to be on this page? Can
+											it be shortened into a sentence?</p>
+										<h3>Tables are for non-tabular data</h3>
+										<p>Columns should be defined by the proper classes (not tables),
+											so they float vertically on a very-thin browser. See an <a
+												href="/Style/Grid.aspx">example of the grid system</a>.
+										</p>
+										<h3>Minimize file size</h3>
+										<p>Page speed matters. You don't know what data plan a person
+											will have, or if they're in an area with poor service.
+											Images and files should only be as large as necessary, and
+											no larger. </p>
+
+
 									</div>
-								
+								</div>
+
 							</div>
 
 							<div class="NEMoudule content-pane content-pane--bottom-right">
-								<a	name="3641"></a>
-									<div class="pane">
-										<h2 class="arrow-below">
-											<span class="Head">SEO-Friendly
-												Content</span>
-										</h2>
-										<div class="container-block">
-											
-														<h3>Write for humans; not for robots.&nbsp;</h3>
-														<p>When you write content, make sure it's readable by humans.
-															This is more important than making sure your content is
-															filled with keywords or uses search-friendly formatting.
-															Search engines are becoming more sophisticated at
-															determining whether content contains useful information;
-															content that is jammed with keywords but doesn't provide any
-															value will get ranked down compared to useful content.&nbsp;
-														</p>
-														<p>Bad example: <strong>Undergraduate degrees</strong> for
-															<em>undergraduate students</em> seeking
-															<strong>undergraduate degrees</strong> to help improve your
-															career with an <strong><em>undergraduate
-																	degree!</em></strong></p>
-														<p>Good example: Northeastern State University provides <a
-																href="#">undergraduate degree programs</a> in Art,
-															Science, Math, Chemistry, and English. &nbsp;</p>
-														<h3>Place keywords in important elements.</h3>
-														<p>Search engines are adept at figuring out what kind of content
-															your page provides by looking at important elements like the
-															page title, headings (h1, h2, etc.), and in the first
-															paragraph of written text. Make sure the important keywords
-															for your page are included there as long as it makes sense.
-															If you think you're repeating a keyword too often, remove it
-															from less important elements.&nbsp;</p>
-														<h3>Images need text too.</h3>
-														<p>Search engines can't tell what an image is just by looking at
-															it. Make sure to provide content for the "alt" tag with
-															every image you add to the site. The filename of the image
-															is also relevant: search engines will make more sense out of
-															nsu_campus_tahlequah.jpg than img000182818.jpg.&nbsp;</p>
-														<h3>Link to and from relevant content.</h3>
-														<p>When writing the main body copy of a page, link to other
-															pages when you are using a keyword for that page.&nbsp;</p>
-														<p>Example: About 80% of our students commute to campus, and
-															about 20% of our students take <a href="#">online
-																classes</a>.&nbsp;</p>
-														<p>In this example, linking to a page about online classes while
-															using the key phrase "online classes" will help search
-															engines recognize that you have a page dedicated to that
-															keyword or topic.&nbsp;</p>
-														<p>Similarly, when you are writing social media posts make sure
-															to include similar keywords. For instance, a Tweet might
-															read: <em>Three new classes will be available online
-																starting this Fall [link] #nsu #onlineclasses</em></p>
-											
-										</div>
+								<a name="3641"></a>
+								<div class="pane">
+									<h2 class="arrow-below">
+										<span class="Head">SEO-Friendly
+											Content</span>
+									</h2>
+									<div class="container-block">
+
+										<h3>Write for humans; not for robots.&nbsp;</h3>
+										<p>When you write content, make sure it's readable by humans.
+											This is more important than making sure your content is
+											filled with keywords or uses search-friendly formatting.
+											Search engines are becoming more sophisticated at
+											determining whether content contains useful information;
+											content that is jammed with keywords but doesn't provide any
+											value will get ranked down compared to useful content.&nbsp;
+										</p>
+										<p>Bad example: <strong>Undergraduate degrees</strong> for
+											<em>undergraduate students</em> seeking
+											<strong>undergraduate degrees</strong> to help improve your
+											career with an <strong><em>undergraduate
+													degree!</em></strong></p>
+										<p>Good example: Northeastern State University provides <a
+												href="#">undergraduate degree programs</a> in Art,
+											Science, Math, Chemistry, and English. &nbsp;</p>
+										<h3>Place keywords in important elements.</h3>
+										<p>Search engines are adept at figuring out what kind of content
+											your page provides by looking at important elements like the
+											page title, headings (h1, h2, etc.), and in the first
+											paragraph of written text. Make sure the important keywords
+											for your page are included there as long as it makes sense.
+											If you think you're repeating a keyword too often, remove it
+											from less important elements.&nbsp;</p>
+										<h3>Images need text too.</h3>
+										<p>Search engines can't tell what an image is just by looking at
+											it. Make sure to provide content for the "alt" tag with
+											every image you add to the site. The filename of the image
+											is also relevant: search engines will make more sense out of
+											nsu_campus_tahlequah.jpg than img000182818.jpg.&nbsp;</p>
+										<h3>Link to and from relevant content.</h3>
+										<p>When writing the main body copy of a page, link to other
+											pages when you are using a keyword for that page.&nbsp;</p>
+										<p>Example: About 80% of our students commute to campus, and
+											about 20% of our students take <a href="#">online
+												classes</a>.&nbsp;</p>
+										<p>In this example, linking to a page about online classes while
+											using the key phrase "online classes" will help search
+											engines recognize that you have a page dedicated to that
+											keyword or topic.&nbsp;</p>
+										<p>Similarly, when you are writing social media posts make sure
+											to include similar keywords. For instance, a Tweet might
+											read: <em>Three new classes will be available online
+												starting this Fall [link] #nsu #onlineclasses</em></p>
 
 									</div>
-								
+
+								</div>
+
 							</div>
 						</div>
 					</div>
